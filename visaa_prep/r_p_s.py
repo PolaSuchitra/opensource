@@ -1,0 +1,22 @@
+x,y=input().split()
+if(x=="R"):
+    if(y=="P"):
+        print("Charan")
+    elif(y=="R"):
+        print("NULL")
+    else:
+        print("Vignesh")
+elif(x=="P"):
+    if(y=="P"):
+        print("NULL")
+    elif(y=="R"):
+        print("Vignesh")
+    else:
+        print("Charan")
+elif(x=="S"):
+    if(y=="S"):
+        print("NULL")
+    elif(y=="P"):
+        print("Vignesh")
+    else:
+        print("Charan")
